@@ -19,11 +19,17 @@
 }
 
 .cell {
-    width:54px;
+    width:64px;
     height: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cell img {
+    height: 48px;
+    width: 48px;
+    position: relative;
 }
 
 .black{
@@ -34,3 +40,13 @@
     background-color: blanchedalmond;
 }
 
+.selected {
+    background-color: brown;
+}
+
+.available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: cyan;
+}
